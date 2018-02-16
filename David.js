@@ -1,9 +1,10 @@
 'use strict'
 
-var name = 'David'
+var firstName = 'David';
+var lastName = 'David';
 
-function greet() {
-    return 'Greetings ';
+function greet(firstName, lastName) {
+    return 'Greetings ' + firstName + ' ' + lastName;
 }
 
-greet();
+greet(firstName, lastName);
