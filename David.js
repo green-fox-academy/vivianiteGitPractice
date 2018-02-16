@@ -3,8 +3,9 @@
 var firstName = 'David';
 var lastName = 'David';
 
-function greet(firstName, lastName) {
-    return 'Greetings ' + firstName + ' ' + lastName;
+
+function greet(toGreet) {
+    return `Greetings from the ${toGreet}`;
 }
 
-greet(firstName, lastName);
+greet(name);
