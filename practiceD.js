@@ -1,8 +1,8 @@
 'use strict'
 
 function printZodiac(zodiac) {
-
-  console.log(zodiac);
-
+  return zodiac;
 }
+
+console.log(printZodiac('pig'));
 
