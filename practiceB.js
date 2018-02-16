@@ -4,4 +4,4 @@ function vmi(vmiNum) {
     console.log(vmiNum);
 }
 
-vmi(400);
+vmi(7);
