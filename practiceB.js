@@ -1,7 +1,7 @@
 'use strict';
 
-function vmi(vmiNum) {
-    console.log(vmiNum);
+function vmi(vmiElse, vmiNum) {
+    console.log(vmiElse, vmiNum);
 }
 
-vmi(7);
+vmi(7, 8);
