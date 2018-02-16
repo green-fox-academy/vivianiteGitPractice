@@ -4,4 +4,4 @@ function cheer(teamName) {
     return teamName;
 }
 
-console.log(cheer('Vivianite'));
+console.log(cheer('javascript'));
