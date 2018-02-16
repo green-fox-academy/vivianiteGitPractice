@@ -1,7 +1,7 @@
 'use strict'
 
-function cheer(teamName) {
-    return teamName;
+function cheer(teamName, teamLanguage) {
+    return teamName + teamLanguage;
 }
 
-console.log(cheer('javascript'));
+console.log(cheer('Vivianite', 'react'));
