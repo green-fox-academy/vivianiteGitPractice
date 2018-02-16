@@ -1,7 +1,8 @@
 'use strict'
 
-function greet() {
-    return 'Hello David';
+var name = 'David'
+function greet(name) {
+    return 'Hello ' + name;
 }
 
-console.log(greet());
+console.log(greet(name));
