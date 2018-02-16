@@ -4,5 +4,5 @@ function printZodiac(zodiac) {
   return zodiac;
 }
 
-console.log(printZodiac('pig'));
+console.log('your future looks like: ' + printZodiac(zodiac));
 
