@@ -1,7 +1,7 @@
 'use strict'
 
-function cheer() {
-    return 'Vivianite';
+function cheer(teamName) {
+    return teamName;
 }
 
-console.log(cheer());
+console.log(cheer('Vivianite'));
