@@ -1,6 +1,8 @@
 'use strict'
 
-var name = 'David'
+var firstName = 'David';
+var lastName = 'David';
+
 
 function greet(toGreet) {
     return `Greetings from the ${toGreet}`;
