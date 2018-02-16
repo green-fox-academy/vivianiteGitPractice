@@ -2,8 +2,8 @@
 
 var name = 'David'
 
-function greet() {
-    return 'Greetings ';
+function greet(toGreet) {
+    return `Greetings from the ${toGreet}`;
 }
 
-greet();
+greet(name);
