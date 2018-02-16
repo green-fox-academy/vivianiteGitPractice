@@ -1,7 +1,7 @@
 'use strict';
 
-function vmi(vmiElse, vmiNum) {
-    console.log(vmiElse, vmiNum);
+function count(vmiNum) {
+    console.log(`counting the countles ${vmiNum}`);
 }
 
-vmi(7, 8);
+count(7);
